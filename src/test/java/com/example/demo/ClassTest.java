@@ -26,4 +26,15 @@ public class ClassTest {
 //		Dog.setAttribute2();//static的方法呼叫 可以直接用類別+方法
 //		
 	}
+	
+	@Test
+	public void classTest8(){
+		Dog dog  = new Dog();
+		dog.setAttribute("Lily", "brown", 2);
+		String information = dog.getName()+"\n"+dog.getColor()+"\n"	+dog.getAge();
+		System.out.println(information);
+//		dog.setAttributes1();
+//		Dog.setAttribute2();//static的方法呼叫 可以直接用類別+方法
+//		
+	}
 }
